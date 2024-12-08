@@ -12,7 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        greatVibes: ['Great Vibes', 'cursive'],
+        inter: ['Inter', 'sans-serif'],
+        helvetica: ['Helvetica', 'sans-serif'],
+      },
+
+     
     },
-  },
-  plugins: [],
-} satisfies Config;
+    },
+    plugins: [],
+
+  }
