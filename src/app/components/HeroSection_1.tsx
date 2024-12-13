@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HeroSection_1() {
   return (
-    <div className="container max-w-[1920px] mx-auto 2xl:p-0">
+    <div className="container mx-auto 2xl:p-0">
 {/* main content holding div */}
       <div className="subcont w-full h-[818px] flex items-center justify-center">
 

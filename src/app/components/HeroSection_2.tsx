@@ -7,68 +7,65 @@ import Link from "next/link";
 
 export default function HeroSection_2() {
   return (
-    <div className="w-[1320px] h-[562px] relative mx-auto mt-[120px]">
-      <div className="w-[562px] h-[562px] left-0 top-0 absolute">
-        <div className="w-[446px] h-[110px] left-0 top-[48px] absolute">
-          <span className="text-[#ff9f0d] text-5xl font-bold font-helvetica leading-[56px]">
-            We
-          </span>
-          <span className="text-white text-5xl font-bold font-helvetica leading-[56px]">
-            {" "}
-            Create the best
-            <br />
-            foody product
-            <br />
-          </span>
-        </div>
-        <div className="left-0 top-0 absolute text-[#ff9f0d] text-[32px] font-normal font-greatVibes leading-10">
-          About us
-        </div>
-        <div className="w-[526px] h-[130px] left-0 top-[190px] absolute text-white text-base font-normal font-inter leading-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam
-          pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit
-          augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis
-          sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in
-          consequat.
-        </div>
-        <div className="left-[27px] top-[344px] absolute text-white text-lg font-normal font-inter leading-relaxed ">
-          {" "}
-          Lacus nisi, et ac dapibus sit eu velit in consequat.
-        </div>
-        <div className="left-[27px] top-[394px] absolute text-white text-lg font-normal font-inter leading-relaxed ">
-          {" "}
-          Quisque diam pellentesque bibendum non dui volutpat fringilla
-        </div>
-        <MdDone className="left-0 top-[350px] absolute text-white text-xl" />
-        <MdDone className="left-0 top-[398px] absolute text-white text-xl" />
-        <MdDone className="left-0 top-[450px] absolute text-white text-xl" />
-        <div className="left-[27px] top-[444px] absolute text-white text-lg font-normal font-inter leading-relaxed ">
-          {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        </div>
-        <div className="w-[190px] h-[60px] left-0 top-[502px] absolute">
-          <Link  href="#"  className="w-[190px] h-[60px] left-0 top-0 absolute bg-[#ff9f0d] rounded-[30px] cursor-pointer hover:bg-zinc-400" >
-          <div className="left-[54px] top-[18px] absolute text-white text-base font-normal font-inter leading-normal " >
-            Read More
+    <div className="max-w-[1348px] mx-auto mt-12 px-4 sm:p-6">
+      <div className="grid md:grid-cols-2 gap-8 items-center">
+        {/* Left Section */}
+        <div>
+          <div className="text-[#ff9f0d] text-[32px] font-greatVibes mb-2">
+            About us
           </div>
+          <div className="text-5xl font-bold font-helvetica leading-tight mb-4">
+            <span className="text-[#ff9f0d]">We</span>{" "}
+            <span className="text-white">Create the best foody product</span>
+          </div>
+          <p className="text-white text-base font-inter leading-normal mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            diam pellentesque bibendum non dui volutpat fringilla bibendum.
+            Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+            Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit
+            eu velit in consequat.
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start text-white text-lg">
+              <MdDone className="text-[#ff9f0d] mr-2" />
+              Lacus nisi, et ac dapibus sit eu velit in consequat.
+            </li>
+            <li className="flex items-start text-white text-lg">
+              <MdDone className="text-[#ff9f0d] mr-2" />
+              Quisque diam pellentesque bibendum non dui volutpat fringilla
+            </li>
+            <li className="flex items-start text-white text-lg">
+              <MdDone className="text-[#ff9f0d] mr-2" />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </li>
+          </ul>
+          <Link
+            href="#"
+            className="bg-[#ff9f0d] hover:bg-[#e68f0b] text-white py-3 px-8 rounded-full inline-block"
+          >
+            Read More
           </Link>
         </div>
+
+        {/* Right Section */}
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            className="col-span-2 rounded-md"
+            src={foodimage1}
+            alt="A delicious food plate"
+          />
+          <Image
+            className="rounded-md"
+            src={foodimage2}
+            alt="Another food plate"
+          />
+          <Image
+            className="rounded-md"
+            src={foodimage3}
+            alt="More delicious food"
+          />
+        </div>
       </div>
-      <Image
-        className="w-[660px] h-[330px] left-[660px] top-0 absolute rounded-md"
-        src={foodimage1}
-        alt=""
-      ></Image>
-      <Image
-        className="w-[322px] h-[194px] left-[660px] top-[346px] absolute rounded-md"
-        src={foodimage2}
-        alt=""
-      ></Image>
-      <Image
-        className="w-[322px] h-[194px] left-[998px] top-[346px] absolute rounded-md"
-        src={foodimage3}
-        alt=""
-      ></Image>
     </div>
   );
 }
