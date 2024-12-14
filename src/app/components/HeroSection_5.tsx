@@ -31,7 +31,7 @@ export default function HeroSection_3() {
           <div className="left-[70px] top-[199px] absolute text-white text-[40px] font-bold font-helvetica leading-[48px]">220</div>
           <div className="Group w-[120px] h-[120px] left-[43px] top-0 absolute"><Image className="" src={foodIcon4} alt=""/></div>
         </div>
-        <div className="YearsOfExperienced w-[248px] h-[247px] left-[703px] top-0 absolute">
+        <div className="YearsOfExperienced w-[249px] h-[247px] left-[703px] top-0 absolute">
           <div className="YearsOfExperienced left-0 top-[144px] absolute text-white text-2xl font-bold font-helvetica leading-loose">Years Of Experienced</div>
           <div className="left-[90px] top-[199px] absolute text-white text-[40px] font-bold font-helvetica leading-[48px]">30+</div>
           <div className="Group w-[120px] h-[120px] left-[64px] top-0 absolute"><Image className="" src={foodIcon3} alt=""/></div>
