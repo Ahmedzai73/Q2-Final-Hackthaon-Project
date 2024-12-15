@@ -8,7 +8,7 @@ import foodIcon4 from "../../../public/Group-2.png";
 
 
 
-export default function HeroSection_3() {
+export default function HeroSection_5() {
   
   return (
     <div className="Clients container w-[1920px] h-[469px] relative mx-auto mt-[120px] max-w-[1923px]">

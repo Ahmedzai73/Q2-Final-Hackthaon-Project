@@ -10,7 +10,7 @@ import { PiCookieLight } from "react-icons/pi";
 import { PiWineLight  } from "react-icons/pi";
 
 
-export default function HeroSection_3() {
+export default function HeroSection_4() {
   
   return (
     <div className="WhyChoseUs container max-w-[1320px] h-[716px] relative mx-auto mt-[120px] ">

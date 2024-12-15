@@ -2,6 +2,7 @@
 import { FaSearch } from "react-icons/fa";
 import { PiHandbagBold } from "react-icons/pi";
 import { FaBars } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -17,27 +18,27 @@ export default function Navbar() {
             <nav className="w-full h-[87px] flex justify-between relative">
                 {/* Menu Items */}
                 <ul className="hidden md:flex pt-12 md:space-x-3 lg:space-x-6 text-white text-base font-normal font-inter">
-                    <li className="relative hover:text-[#ff9f0d] cursor-pointer group">Home
+                    <Link href="#" className="relative hover:text-[#ff9f0d] cursor-pointer group">Home
                         <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">Menu
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">Menu
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">Blog
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">Blog
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">Pages
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">Pages
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">About
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">About
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">Shop
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">Shop
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
-                    <li className="hover:text-[#ff9f0d] cursor-pointer group">Contact
+                    </Link>
+                    <Link href="#" className="hover:text-[#ff9f0d] cursor-pointer group">Contact
                     <div className="Ellipse33 w-[7px] h-[7px] bg-[#ff9f0d] rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    </li>
+                    </Link>
                 </ul>
 
                 {/* Search and Handbag */}

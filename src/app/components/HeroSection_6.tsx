@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 
-export default function HeroSection_3() {
+export default function HeroSection_6() {
   
   return (
     <div className="OurMenu w-[1320px] h-[656px] relative mx-auto mt-[120px]">
