@@ -11,12 +11,14 @@ import HeroSection_7 from "./components/HeroSection_7";
 import HeroSection_8 from "./components/HeroSection_8";
 import HeroSection_9 from "./components/HeroSection_9";
 import HeroSection_10 from "./components/HeroSection_10";
+import Footer_HS from "./components/Footer_HS";
+import Footer_HSA from "./components/Footer_HSA";
 
 // bg-[#0d0d0d]
 export default function Home() {
   return (
 
-    <div className=" max-w-[1920px] max-h-[8479px] ">
+    <div className=" max-w-[1920px] max-h-[8479px] mx-auto">
       
       <div className="div relative z-10"> <Header/></div>
       <div className="div relative z-10"> <HeroSection_1  /></div>
@@ -31,11 +33,26 @@ export default function Home() {
     <HeroSection_8/>
     <HeroSection_9/>
     <HeroSection_10/>
+    <Footer_HS/>
+    <Footer_HSA/>
+    
  {/* <Image
         className="UnsplashInjdgkcwhp0 w-[444.10px] h-[532.30px] left-[1172.97px] top-[681.95px] absolute origin-top-left rotate-[-76.86deg]"
         src={foodimage1}
         alt=""
       /> */}
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
