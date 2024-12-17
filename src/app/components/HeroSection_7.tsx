@@ -1,3 +1,9 @@
+import Image from "next/image";
+import chef1 from "../../../public/chefs/Rectangle 8863-3.png";
+import chef2 from "../../../public/chefs/Rectangle 8863.png";
+import chef3 from "../../../public/chefs/Rectangle 8863-1.png";
+import chef4 from "../../../public/chefs/Rectangle 8863-2.png";
+
 export default function HeroSection_7() {
   return (
     <div className="main mx-auto mt-[120px] max-w-[1320px] h-[551px] ">
@@ -13,7 +19,7 @@ export default function HeroSection_7() {
 
         {/* this is card 1 */}
         <div className="divcard1 main relative cursor-pointer group ">
-          <img className="Rectangle8863 w-[312px] h-[391px] rounded-md" src="/chefs/Rectangle 8863-3.png" alt='D.Estwood' />
+          <Image className="Rectangle8863 w-[312px] h-[391px] rounded-md" src={chef1} alt='D.Estwood' />
           <div className="Rectangle8867 w-[181px] h-[67px] bg-white rounded-bl-md px-4 py-2 opacity-0 group-hover:opacity-100 transform duration-500  absolute bottom-0">
           <div className="DEstwood text-[#333333] text-lg font-bold font-inter leading-relaxed">D.Estwood</div>
           <div className="ChiefChef text-[#333333] text-sm font-normal font-inter leading-snug">Chief Chef</div>
@@ -23,7 +29,7 @@ export default function HeroSection_7() {
 
         {/* this is card 2 */}
         <div className="divcard2 main relative cursor-pointer group ">
-          <img className="Rectangle8863 w-[312px] h-[391px] rounded-md" src="/chefs/Rectangle 8863.png" alt='D.Scoriesh' />
+          <Image className="Rectangle8863 w-[312px] h-[391px] rounded-md" src={chef2} alt='D.Scoriesh' />
           <div className="Rectangle8867 w-[181px] h-[67px] bg-white rounded-bl-md px-4 py-2 opacity-0 group-hover:opacity-100 transform duration-500 absolute bottom-0">
           <div className="DEstwood text-[#333333] text-lg font-bold font-inter leading-relaxed">D.Scoriesh</div>
           <div className="ChiefChef text-[#333333] text-sm font-normal font-inter leading-snug">Assistant Chef</div>
@@ -33,7 +39,7 @@ export default function HeroSection_7() {
       
         {/* this is card 3 */}
         <div className="divcard3 main relative cursor-pointer group ">
-          <img className="Rectangle8863 w-[312px] h-[391px] rounded-md" src="/chefs/Rectangle 8863-1.png" alt='M. William' />
+          <Image className="Rectangle8863 w-[312px] h-[391px] rounded-md" src={chef3} alt='M. William' />
           <div className="Rectangle8867 w-[181px] h-[67px] bg-white rounded-bl-md px-4 py-2 opacity-0 group-hover:opacity-100 transform duration-500 absolute bottom-0">
           <div className="DEstwood text-[#333333] text-lg font-bold font-inter leading-relaxed">M. William</div>
           <div className="ChiefChef text-[#333333] text-sm font-normal font-inter leading-snug">Assistant Chef</div>
@@ -43,7 +49,7 @@ export default function HeroSection_7() {
 
         {/* this is card 4 */}
         <div className="divcard4 main relative cursor-pointer group ">
-          <img className="Rectangle8863 w-[312px] h-[391px] rounded-md" src="/chefs/Rectangle 8863-2.png" alt='W.Readfroad' />
+          <Image className="Rectangle8863 w-[312px] h-[391px] rounded-md" src={chef4} alt='W.Readfroad' />
           <div className="Rectangle8867 w-[181px] h-[67px] bg-white rounded-bl-md px-4 py-2 opacity-0 group-hover:opacity-100 transform duration-500 absolute bottom-0">
           <div className="DEstwood text-[#333333] text-lg font-bold font-inter leading-relaxed">W.Readfroad</div>
           <div className="ChiefChef text-[#333333] text-sm font-normal font-inter leading-snug">Chef</div>

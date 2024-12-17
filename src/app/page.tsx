@@ -19,7 +19,7 @@ import Footer_HA from "./components/Footer_HA";
 export default function Home() {
   return (
 
-    <div className=" max-w-[1920px] max-h-[8479px] ">
+    <div className=" max-w-[1920px] max-h-[8479px] mx-auto">
       
       <div className="div relative z-10"> <Header/></div>
       <div className="div relative z-10"> <HeroSection_1  /></div>
@@ -48,6 +48,18 @@ export default function Home() {
         src={foodimage1}
         alt=""
       /> */}
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

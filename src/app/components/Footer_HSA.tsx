@@ -11,8 +11,12 @@ export default function Footer_HSA() {
             <div className=" max-w-[1920px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto ">
                 {/* About Us Section */}
                 <div className="AboutUs  ">
+
                     <div className="AboutUs text-white text-2xl font-bold font-helvetica leading-loose"><Link href="#" className="hover:text-[#ff9f0d]">About Us.</Link></div>
-                    <div className="OrporateClientsAndLeisureTravelersHasBeenRelyingOnGroundlinkForDependabSafeAndProfessionalChauffeuredCarServiceInMajorCitiesAcrossWorld w-[312px] h-[95px] text-white text-base font-normal font-inter leading-normal">orporate clients and leisure travelers has<br />been relying on Groundlink for dependab<br />safe, and professional chauffeured car<br />service in major cities across World.</div>
+
+                    
+
+                    <div className="OrporateClient w-[312px] h-[95px] text-white text-base font-normal font-inter leading-normal">orporate clients and leisure travelers has<br />been relying on Groundlink for dependab<br />safe, and professional chauffeured car<br />service in major cities across World.</div>
 
 
                     <div className="flex mt-[34px]">
