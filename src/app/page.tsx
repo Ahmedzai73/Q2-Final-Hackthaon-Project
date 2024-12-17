@@ -11,7 +11,10 @@ import HeroSection_7 from "./components/HeroSection_7";
 import HeroSection_8 from "./components/HeroSection_8";
 import HeroSection_9 from "./components/HeroSection_9";
 import HeroSection_10 from "./components/HeroSection_10";
+import Footer_HA from "./components/Footer_HA";
 
+
+// import Footer_HA from "./components/Footer_HA";
 // bg-[#0d0d0d]
 export default function Home() {
   return (
@@ -31,7 +34,16 @@ export default function Home() {
     <HeroSection_8/>
     <HeroSection_9/>
     <HeroSection_10/>
- {/* <Image
+    
+
+
+
+
+
+    <Footer_HA/>
+ 
+ {/* <Image/>
+    
         className="UnsplashInjdgkcwhp0 w-[444.10px] h-[532.30px] left-[1172.97px] top-[681.95px] absolute origin-top-left rotate-[-76.86deg]"
         src={foodimage1}
         alt=""

@@ -26,8 +26,10 @@ export default function HeroSection_1() {
         <div className="textholder w-[472px] h-[356px]  mr-[93px]">
 
           <div className="TextContant w-[472px] h-[356px] relative">
-            <div className="TheArtOfSpeedFoodQuality left-0 top-[48px] absolute"><span className="text-[#ff9f0d] text-6xl font-bold font-Helvetica leading-[68px]">Th</span><span className="text-white text-6xl font-bold font-Helvetica leading-[68px]">e Art of speed<br />food Quality</span></div>
-            <div className="LoremIpsumDolorSitAmetConsecteturAdipiscingElitVariusSedPharetraDictumNequeMassaCongue left-0 top-[216px] absolute text-white text-base font-normal font-inter leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Varius sed pharetra dictum neque massa congue</div>
+
+            <div className="TheArtOfSpeedFoodQuality left-0 top-[48px] absolute"><span className="text-[#ff9f0d] text-6xl font-bold font-helvetica leading-[68px]">Th</span><span className="text-white text-6xl font-bold font-helvetica leading-[68px]">e Art of speed<br />food Quality</span></div>
+
+            <div className="LoremIpsum left-0 top-[216px] absolute text-white text-base font-normal font-inter leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Varius sed pharetra dictum neque massa congue</div>
             <div className="ItsQuickAmusing left-0 top-0 absolute text-[#ff9f0d] text-[32px] font-normal font-greatVibes leading-10">Its Quick & Amusing!</div>
             <div className="Button w-[190px] h-[60px] left-0 top-[296px] absolute ">
 
