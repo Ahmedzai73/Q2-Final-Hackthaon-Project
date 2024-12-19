@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backgroundimage from "../../../public/unsplash_E6DsqnZbZ4o.png"
+import backgroundimage from "../../../../public/unsplash_E6DsqnZbZ4o.png"
 import { FiPlay } from "react-icons/fi";
 
 

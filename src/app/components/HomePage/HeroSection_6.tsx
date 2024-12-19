@@ -1,6 +1,6 @@
 import Image from "next/image";
-import foodIcon1 from "../../../public/img/unsplash_Lv174o7fn7Y.png";
-import foodIcon2 from "../../../public/img/unsplash_INjdgkCwHp0.png";
+import foodIcon1 from "../../../../public/img/unsplash_Lv174o7fn7Y.png";
+import foodIcon2 from "../../../../public/img/unsplash_INjdgkCwHp0.png";
 import MenuCardsData from "./MenuCardsData";
 import Link from "next/link";
 

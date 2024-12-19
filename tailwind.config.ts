@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,10 +18,18 @@ export default {
         inter: ['Inter', 'sans-serif'],
         helvetica: ['Helvetica', 'sans-serif'],
       },
-
-     
+      screens: {
+        'xs': '480px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        '3xl': '1920px', // Added new screen size
+      },
     },
-    },
-    plugins: [],
+  },
+  plugins: [],
+};
 
-  }
+export default config;

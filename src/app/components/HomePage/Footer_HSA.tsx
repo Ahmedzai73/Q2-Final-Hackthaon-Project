@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import foodimage1 from "../../../public/footerimages/unsplash_CLMpC9UhyTo.png";
-import foodimage2 from "../../../public/footerimages/unsplash_CRoAeTh5S_I.png";
-import foodimage3 from "../../../public/footerimages/unsplash_50KffXbjIOg.png";
+import foodimage1 from "../../../../public/footerimages/unsplash_CLMpC9UhyTo.png";
+import foodimage2 from "../../../../public/footerimages/unsplash_CRoAeTh5S_I.png";
+import foodimage3 from "../../../../public/footerimages/unsplash_50KffXbjIOg.png";
 import { PiClockClockwise } from "react-icons/pi";
 
 export default function Footer_HSA() {

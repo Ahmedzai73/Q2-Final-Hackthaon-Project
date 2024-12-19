@@ -1,6 +1,6 @@
 import Image from "next/image";
-import flowerimage from "../../../public/unsplash_Ioq6qEibtbU.png"
-import personimage from "../../../public/Ellipse 6.png"
+import flowerimage from "../../../../public/unsplash_Ioq6qEibtbU.png"
+import personimage from "../../../../public/Ellipse 6.png"
 import StarRating from "./RatingStar";
 
 

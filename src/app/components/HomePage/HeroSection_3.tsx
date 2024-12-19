@@ -1,9 +1,9 @@
 
 import Image from "next/image";
-import foodimage1 from "../../../public/unsplash_-lHZUkiWM74.png";
-import foodimage2 from "../../../public/unsplash_q54Oxq44MZs.png";
-import foodimage3 from "../../../public/unsplash_dphM2U1xq0U.png";
-import foodimage4 from "../../../public/unsplash_MRHyv-hHxgk.png";
+import foodimage1 from "../../../../public/unsplash_-lHZUkiWM74.png";
+import foodimage2 from "../../../../public/unsplash_q54Oxq44MZs.png";
+import foodimage3 from "../../../../public/unsplash_dphM2U1xq0U.png";
+import foodimage4 from "../../../../public/unsplash_MRHyv-hHxgk.png";
 
 export default function HeroSection_3() {
   return (

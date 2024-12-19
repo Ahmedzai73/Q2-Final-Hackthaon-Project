@@ -1,10 +1,10 @@
 import Image from "next/image";
-import foodimage1 from "../../../public/unsplash_lP5MCM6nZ5A@2x.png";
-import foodimage2 from "../../../public/unsplash_dphM2U1xq0U@2x.png";
-import foodimage3 from "../../../public/unsplash_CLMpC9UhyTo@2x.png";
-import foodimage4 from "../../../public/unsplash_-GFCYhoRe48@2x.png";
-import foodimage5 from "../../../public/unsplash_tzl1UCXg5Es@2x.png";
-import foodimage6 from "../../../public/unsplash_mmnKI8kMxpc@2x.png";
+import foodimage1 from "../../../../public/unsplash_lP5MCM6nZ5A@2x.png";
+import foodimage2 from "../../../../public/unsplash_dphM2U1xq0U@2x.png";
+import foodimage3 from "../../../../public/unsplash_CLMpC9UhyTo@2x.png";
+import foodimage4 from "../../../../public/unsplash_-GFCYhoRe48@2x.png";
+import foodimage5 from "../../../../public/unsplash_tzl1UCXg5Es@2x.png";
+import foodimage6 from "../../../../public/unsplash_mmnKI8kMxpc@2x.png";
 import { PiHamburgerLight } from "react-icons/pi";
 import { PiCookieLight } from "react-icons/pi";
 import { PiWineLight  } from "react-icons/pi";

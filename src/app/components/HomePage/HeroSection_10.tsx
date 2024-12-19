@@ -1,7 +1,7 @@
 import Image from "next/image";
-import foodimage1 from "../../../public/unsplash_dphM2U1xq0U.png";
-import foodimage2 from "../../../public/unsplash_MqT0asuoIcU.png";
-import foodimage3 from "../../../public/unsplash_lP5MCM6nZ5A@2x.png";
+import foodimage1 from "../../../../public/unsplash_dphM2U1xq0U.png";
+import foodimage2 from "../../../../public/unsplash_MqT0asuoIcU.png";
+import foodimage3 from "../../../../public/unsplash_lP5MCM6nZ5A@2x.png";
 import { LuThumbsUp } from "react-icons/lu";
 import { PiShareNetwork } from "react-icons/pi";
 import { PiChatDots } from "react-icons/pi";

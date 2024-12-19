@@ -1,7 +1,7 @@
 import Image from "next/image";
-import foodimage1 from "../../../public/unsplash_fdlZBWIP0aM.png";
-import foodimage2 from "../../../public/unsplash_jpkfc5_d-DI.png";
-import foodimage3 from "../../../public/unsplash_mAQZ3X_8_l0.png";
+import foodimage1 from "../../../../public/unsplash_fdlZBWIP0aM.png";
+import foodimage2 from "../../../../public/unsplash_jpkfc5_d-DI.png";
+import foodimage3 from "../../../../public/unsplash_mAQZ3X_8_l0.png";
 import { MdDone } from "react-icons/md";
 import Link from "next/link";
 

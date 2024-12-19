@@ -1,9 +1,9 @@
 import Image from "next/image";
-import backgroundimage from "../../../public/unsplash_bpPTlXWTOvg.png";
-import foodIcon1 from "../../../public/Group-1.png";
-import foodIcon2 from "../../../public/Group.png";
-import foodIcon3 from "../../../public/Group-3.png";
-import foodIcon4 from "../../../public/Group-2.png";
+import backgroundimage from "../../../../public/unsplash_bpPTlXWTOvg.png";
+import foodIcon1 from "../../../../public/Group-1.png";
+import foodIcon2 from "../../../../public/Group.png";
+import foodIcon3 from "../../../../public/Group-3.png";
+import foodIcon4 from "../../../../public/Group-2.png";
 
 
 

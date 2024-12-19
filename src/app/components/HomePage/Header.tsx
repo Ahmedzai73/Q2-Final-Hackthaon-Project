@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Navbar() {
     return (
        <div className="container max-w-[1920px] mx-auto ">
-        <div className="relative  max-w-[1320px] mx-auto mt-[45px] px-[33px] sm:px-20 md:px-14 2xl:px-0">
+        <div className="relative  max-w-[1320px] mx-auto  px-[33px] sm:px-20 md:px-14 2xl:px-0">
 
             {/* Top Center Logo */}
             <div className="absolute top-[21px] sm:top-[21px] md:top-2 left-1/2 transform -translate-x-1/2 flex items-center space-x-1 mb-2">
