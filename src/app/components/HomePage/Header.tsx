@@ -18,10 +18,10 @@ export default function Navbar() {
             <nav className="w-full h-[87px] flex justify-between relative">
                 {/* Menu Items */}
                 <ul className="hidden md:flex pt-12 md:space-x-3 lg:space-x-6 text-whiteColor text-base font-normal font-inter">
-                    <Link href="#" className="relative hover:text-color_1 cursor-pointer group">Home
+                    <Link href="/" className="relative hover:text-color_1 cursor-pointer group">Home
                         <div className="Ellipse33 w-[7px] h-[7px] bg-color_1 rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
                     </Link>
-                    <Link href="#" className="hover:text-color_1 cursor-pointer group">Menu
+                    <Link href="./Pages/Menu" className="hover:text-color_1 cursor-pointer group">Menu
                     <div className="Ellipse33 w-[7px] h-[7px] bg-color_1 rounded-full mx-auto opacity-0 group-hover:opacity-100 transition-opacity"></div>
                     </Link>
                     <Link href="#" className="hover:text-color_1 cursor-pointer group">Blog
