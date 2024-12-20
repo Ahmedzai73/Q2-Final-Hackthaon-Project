@@ -27,6 +27,11 @@ const config: Config = {
         '2xl': '1536px',
         '3xl': '1920px', // Added new screen size
       },
+      colors: {
+        primary: '#0070f3',
+        secondary: '#1db954',
+        background: '#ffffff',
+        text: '#333333',
     },
   },
   plugins: [],
