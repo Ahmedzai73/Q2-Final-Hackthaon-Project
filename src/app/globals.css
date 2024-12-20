@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  color: var(--foreground);
-  background-color: #0d0d0d;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--blackColor);
+}
+:root {
+  --whiteColor: #fff;        /* --whiteColor: #FFF; Original color*/
+  --blackColor: #0D0D0D;    /* --blackColor: #0D0D0D; Original color*/
+  --color_1: #FF9F0D;       /* --color_4: #FF9F0D;  Original color*/ 
+  --color_2: #999966;      /* --color_2: #999966; Original color*/
+  --color_3: #A8BCA1;     /* --color_3: #A8BCA1; Original color*/
+  --color_4: #4F4F4F;     /* --color_4: #4F4F4F; Original color*/
 }

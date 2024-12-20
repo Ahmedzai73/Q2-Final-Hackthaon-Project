@@ -9,13 +9,13 @@ export default function HeroSection_3() {
   return (
     <div className="FoodCategory container max-w-[1348px] w-full mx-auto mt-[120px] px-4">
       <div className="text-center">
-        <div className="text-[#ff9f0d] text-[32px] font-normal font-greatVibes mt-2">
+        <div className="text-color_1 text-[32px] font-normal font-greatVibes mt-2">
           Food Category
         </div>
-        <span className="text-[#ff9f0d] text-5xl font-bold leading-[56px]">
+        <span className="text-color_1 text-5xl font-bold leading-[56px]">
           Ch
         </span>
-        <span className="text-white text-5xl font-bold leading-[56px]">
+        <span className="text-whiteColor text-5xl font-bold leading-[56px]">
           oose Food Iteam
         </span>
 

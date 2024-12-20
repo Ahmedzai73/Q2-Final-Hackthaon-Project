@@ -15,19 +15,23 @@ import backgroundimage from "../../../../public/backgroudImage.png";
 
 export default function HomePage() {
   return (
-    <div className="relative max-w-full h-auto mx-auto ">
+    <div className=" max-w-full h-auto mx-auto ">
       <Image
         src={backgroundimage}
         alt="background food image"
-        className="absolute top-0 w-full h-auto object-cover opacity-5 z-0"
+        className="absolute top-0 w-full h-auto object-cover opacity-5 z-0 "
       />
       <div className="relative z-10">
-       <div className="header mt-[45px]"><Header /></div>            {/* Header! -- Navbar*/}
-        <HeroSection_1 />     {/* Its Quick & Amusing! -- The Art of speed food Quality*/}
-        <HeroSection_2 />     {/* About us -- We Create the best foody product*/}
-        <HeroSection_3 />     {/*  Food Category -- Choose Food Iteam*/}
-        <HeroSection_4 />     {/* Our Menu -- Choose Your Favourite Food*/}
-        <HeroSection_5 />     {/* Our Menu -- Choose Your Favourite Food*/}
+        <div className="header mt-[45px]">
+          <Header />
+        </div>{" "}
+        {/* Header! -- Navbar*/}
+        <HeroSection_1 />{" "}
+        {/* Its Quick & Amusing! -- The Art of speed food Quality*/}
+        <HeroSection_2 /> {/* About us -- We Create the best foody product*/}
+        <HeroSection_3 /> {/*  Food Category -- Choose Food Iteam*/}
+        <HeroSection_4 /> {/* Our Menu -- Choose Your Favourite Food*/}
+        <HeroSection_5 /> {/* Our Menu -- Choose Your Favourite Food*/}
         <HeroSection_6 />
         <HeroSection_7 />
         <HeroSection_8 />

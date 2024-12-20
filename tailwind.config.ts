@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,8 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       blackColor: "var(--blackColor)",
+        whiteColor: "var(--whiteColor)",
+        color_1: "var(--color_1)",
+        color_2: "var(--color_2)",
+        color_3: "var(--color_3)",
+        color_4: "var(--color_4)",
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
@@ -18,20 +23,6 @@ const config: Config = {
         inter: ['Inter', 'sans-serif'],
         helvetica: ['Helvetica', 'sans-serif'],
       },
-      screens: {
-        'xs': '480px',
-        'sm': '640px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1536px',
-        '3xl': '1920px', // Added new screen size
-      },
-      colors: {
-        primary: '#0070f3',
-        secondary: '#1db954',
-        background: '#ffffff',
-        text: '#333333',
     },
   },
   plugins: [],

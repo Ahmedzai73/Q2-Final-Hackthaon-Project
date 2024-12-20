@@ -11,18 +11,18 @@ export default function HeroSection_6() {
   return (
     <div className="OurMenu w-[1320px] h-[656px] relative mx-auto mt-[120px]">
     <div className="FromOurMenu left-[440px] top-[48px] absolute">
-      <span className="text-[#ff9f0d] text-5xl font-bold font-helvetica leading-[56px]">Fr</span>
-      <span className="text-white text-5xl font-bold font-helvetica leading-[56px]">om Our Menu</span>
+      <span className="text-color_1 text-5xl font-bold font-helvetica leading-[56px]">Fr</span>
+      <span className="text-whiteColor text-5xl font-bold font-helvetica leading-[56px]">om Our Menu</span>
     </div>
-    <div className="ChoosePick left-[547px] top-0 absolute text-[#ff9f0d] text-[32px] font-normal font-greatVibes leading-10">Choose & pick</div>
+    <div className="ChoosePick left-[547px] top-0 absolute text-color_1 text-[32px] font-normal font-greatVibes leading-10">Choose & pick</div>
     <div className="Text w-[1056px] h-7 left-[5px] top-[160px] absolute">
-      <Link href="#" className="Breakfast left-0 top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-inter leading-7">Breakfast</Link>
-      <Link href="#" className="Lunch left-[195px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Lunch</Link>
-      <Link href="#" className="Dinner left-[353px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Dinner</Link>
-      <Link href="#" className="Dessert left-[515px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Dessert</Link>
-      <Link href="#" className="Drink left-[689px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Drink</Link>
-      <Link href="#" className="Snack left-[839px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Snack</Link>
-      <Link href="#" className="Soups left-[997px] top-0 absolute text-white hover:text-[#ff9f0d] text-xl font-normal font-inter leading-7">Soups</Link>
+      <Link href="#" className="Breakfast left-0 top-0 absolute text-whiteColor hover:text-color_1 text-xl font-inter leading-7">Breakfast</Link>
+      <Link href="#" className="Lunch left-[195px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Lunch</Link>
+      <Link href="#" className="Dinner left-[353px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Dinner</Link>
+      <Link href="#" className="Dessert left-[515px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Dessert</Link>
+      <Link href="#" className="Drink left-[689px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Drink</Link>
+      <Link href="#" className="Snack left-[839px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Snack</Link>
+      <Link href="#" className="Soups left-[997px] top-0 absolute text-whiteColor hover:text-color_1 text-xl font-normal font-inter leading-7">Soups</Link>
     </div>
    
     <div className="LettuceLeaf w-[376px] h-[79px] left-[536px] top-[244px] absolute"> 

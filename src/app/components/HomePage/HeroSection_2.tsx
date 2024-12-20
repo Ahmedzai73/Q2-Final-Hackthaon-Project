@@ -11,14 +11,14 @@ export default function HeroSection_2() {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         {/* Left Section */}
         <div>
-          <div className="text-[#ff9f0d] text-[32px] font-greatVibes mb-2">
+          <div className="text-color_1 text-[32px] font-greatVibes mb-2">
             About us
           </div>
           <div className="text-5xl font-bold font-helvetica leading-tight mb-4">
-            <span className="text-[#ff9f0d]">We</span>{" "}
-            <span className="text-white">Create the best foody product</span>
+            <span className="text-color_1">We</span>{" "}
+            <span className="text-whiteColor">Create the best foody product</span>
           </div>
-          <p className="text-white text-base font-inter leading-normal mb-4">
+          <p className="text-whiteColor text-base font-inter leading-normal mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             diam pellentesque bibendum non dui volutpat fringilla bibendum.
             Urna, elit augue urna, vitae feugiat pretium donec id elementum.
@@ -26,22 +26,22 @@ export default function HeroSection_2() {
             eu velit in consequat.
           </p>
           <ul className="space-y-2 mb-6">
-            <li className="flex items-start text-white text-lg">
-              <MdDone className="text-[#ff9f0d] mr-2" />
+            <li className="flex items-start text-whiteColor text-lg">
+              <MdDone className="text-color_1 mr-2" />
               Lacus nisi, et ac dapibus sit eu velit in consequat.
             </li>
-            <li className="flex items-start text-white text-lg">
-              <MdDone className="text-[#ff9f0d] mr-2" />
+            <li className="flex items-start text-whiteColor text-lg">
+              <MdDone className="text-color_1 mr-2" />
               Quisque diam pellentesque bibendum non dui volutpat fringilla
             </li>
-            <li className="flex items-start text-white text-lg">
-              <MdDone className="text-[#ff9f0d] mr-2" />
+            <li className="flex items-start text-whiteColor text-lg">
+              <MdDone className="text-color_1 mr-2" />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
           </ul>
           <Link
             href="#"
-            className="bg-[#ff9f0d] hover:bg-[#e68f0b] text-white py-3 px-8 rounded-full inline-block"
+            className="bg-color_1 hover:bg-[#e68f0b] text-whiteColor py-3 px-8 rounded-full inline-block"
           >
             Read More
           </Link>

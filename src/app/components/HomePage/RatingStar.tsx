@@ -18,7 +18,7 @@ export default function StarRating({ rating, totalStars = 5 }: StarRatingProps) 
             key={index}
             onClick={() => setCurrentRating(starValue)} // Update rating on click
             className={`cursor-pointer text-3xl ${
-              starValue <= currentRating ? "text-[#ff9f0d] " : "text-gray-300"
+              starValue <= currentRating ? "text-color_1 " : "text-gray-300"
             }`}
           >
             ★
