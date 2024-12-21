@@ -34,5 +34,5 @@ export default function Herosection_01() {
         <div className="text-color_1 text-base font-normal font-['Helvetica'] leading-normal">Read More</div>
       </Link>
     </div>
-  );
+  ); 
 }
