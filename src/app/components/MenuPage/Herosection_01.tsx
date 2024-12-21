@@ -18,7 +18,7 @@ export default function Herosection_01() {
         {/* Breadcrumb */}
         <div className="flex space-x-2 mt-4 items-center">
           <span className="text-whiteColor text-xl font-normal hover:text-color_1"><Link href="../">Home</Link></span> <RiArrowRightSLine className="text-whiteColor text-xl"/>
-          <span className="text-whiteColor text-xl font-normal hover:text-color_1"><Link href="../">Menu</Link></span>
+          <span className="text-whiteColor text-xl font-normal hover:text-color_1"><Link href="./MenuPage">Menu</Link></span>
         </div>
       </div>
     </div>
