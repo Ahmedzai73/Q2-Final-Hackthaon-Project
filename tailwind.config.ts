@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,19 +9,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        blackColor: "var(--blackColor)",
+        whiteColor: "var(--whiteColor)",
+        color_1: "var(--color_1)",
+        color_2: "var(--color_2)",
+        color_3: "var(--color_3)",
+        color_4: "var(--color_4)",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        greatVibes: ['Great Vibes', 'cursive'],
-        inter: ['Inter', 'sans-serif'],
-        helvetica: ['Helvetica', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
+        greatVibes: ["Great Vibes", "cursive"],
+        inter: ["Inter", "sans-serif"],
+        helvetica: ["Helvetica", "sans-serif"],
       },
-
-     
     },
-    },
-    plugins: [],
+  },
+  plugins: [],
+};
 
-  }
+export default config;
